@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scalable Press - Responsive grid</title>
+    <style>
+    .auto-grid {
+        --auto-grid-min-size: 14rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+        grid-gap: 0.5rem;
+    }
+    .wrapper {
+        max-width: 85rem;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    body {
+        background: #efefef;
+        padding: 1rem 0;
+        line-height: 1.4;
+        font-family: sans-serif;
+    }
+    li {
+        padding: 5rem 1rem;
+        text-align: center;
+        color: #efefef;
+    }
+    li label {
+        display: block;
+        font-size: 1.2rem;
+        color: dimgray;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <ul class="auto-grid">
+                <li> 
+                    <div class="item1">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=frogideas&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 1</label> 
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item2">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=sugarsweets&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 2</label> 
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item3">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=heatwave&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 3</label>
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item4">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=daisygarden&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 4</label>
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item5">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=seascape&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 5</label>
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item6">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=bythepool&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 6</label>
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item7">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=duskfalling&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 7</label>
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item8">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=berrypie&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 8</label>
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item9">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=summerwarmth&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 9</label>
+                    </div> 
+                </li>
+                <li> 
+                    <div class="item10">
+                        <img src="https://www.tinygraphs.com/squares/tinygraphs?theme=frogideas&numcolors=4&size=140&fmt=svg" alt="sample avatar"> 
+                        <label>Item Title 10</label>
+                    </div> 
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
